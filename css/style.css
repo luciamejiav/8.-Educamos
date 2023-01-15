@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.row {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.container { /*cabecera*/
+    width: 94%;
+    margin: auto;
+}
+
+.container2 { /*menú*/
+    width: 50%;
+    margin: auto;
+}
+
+.cuenta{
+    color: blue;
+    border: blue solid 2px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 8px 18px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.iniciar {
+    color: white;
+    border: blue solid 2px;
+    border-radius: 20px;
+    background-color: blue;
+    padding: 8px 18px;
+    font-weight: bold;
+}
+
+.lupa {
+    color: blue;
+    margin-right: 10px;
+}
+.line {
+    border-bottom: solid 1px lightgray;
+    padding-bottom: 15px;
+}
+
+nav ul, nav li {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    list-style-type: none;
+    float: left;
+    position: relative;
+    margin-right: 20px;
+    margin-top: 10px;
+    color: black;
+}
+
+.mr-0 {
+    margin-right: 0;
+}
+
+
+.mr-20{
+    margin-right: 20px;
+}
+
+.mti{
+    margin-top: 5px;
+}
+
+.slide-container {
+    position: relative;
+}
+
+.slide { /*oculta las imágenes por defecto*/
+    display: none;
+}
+
+.prev, .next { /*botones de siguiente y anterior*/
+    cursor: pointer; /*cambiamos el cursor de una flecha a una manita*/
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.5s; /*tarda medio segundo en que aparezca o desaparezca la flecha */
+}
+
+.prev {
+    left: 0;
+    border-radius: 0 10px 10px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 10px 0 0 10px;
+}  
+
+.prev:hover, .next:hover { /*Al pasar el ratón, ponemos un color de fondo negro con un poco de transparencia*/
+    background-color: black;
+}
+
+.container3{ /*últimas noticias*/
+    width: 17%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.container4{ /* frase de debajo de últimas noticias*/
+    width: 25%;
+    margin: auto;
+    padding: 5px;
+    font-size: 20px;
+    color: gray;
+    padding-bottom: 30px;
+}
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.right {
+    float: right;
+    width: 50%;
+    padding: 5px 30px;
+}
+
+.cb {
+   clear: both; 
+}
+
+.button {
+    background-color: lightgray;
+    border: lightgray 2px solid;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.py-20 {
+    padding-top: 50px;
+}
+
+.column-3 {
+    
+}
