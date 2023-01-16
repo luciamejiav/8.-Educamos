@@ -160,5 +160,54 @@ nav li {
 }
 
 .column-3 {
-    
+    width: 32%;
+    display: flex;
+}
+
+.card {
+    box-shadow: 0 0 5px gainsboro;
+}
+
+.card img {
+    width: 100%;
+}
+
+.pd{
+    padding: 60px 10px;
+}
+
+.fecha {
+    padding: 2px 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+.mrl-10{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.left2 {
+    float: left;
+    width: 50%;
+    padding-left: 30px;
+}
+
+.right2 {
+    float: right;
+    width: 25%;
+    /*text-align: right;*/
+}
+
+footer {
+    background-color: rgb(240, 237, 237);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.py {
+    padding: 10px 420px;
 }
